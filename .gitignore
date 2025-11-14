@@ -1,0 +1,16 @@
+#python btecode
+__pycache__/
+*.py[cod]
+*.python
+#virtual environments
+.venv/
+env/
+venv/
+#vscode settings
+.vscode/
+#OS Junk
+.DS_Store
+Thumbs.db
+
+#jupyter
+.ipynb_checkpoints/
