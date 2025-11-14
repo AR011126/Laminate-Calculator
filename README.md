@@ -86,3 +86,5 @@ pip install -r requirements.txt
 4) Run the calculator
 python central.py
 
+##Demo
+![Demo GIGF](CLC.gif)
