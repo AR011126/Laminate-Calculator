@@ -1,13 +1,3 @@
-from mechanics import (
-    calculate_abd,
-    calculate_transformed_plies,
-    compute_ply_strains_stresses,
-    laminate_effective_properties,
-    first_ply_failure
-)
-import numpy as np
-import matplotlib.pyplot as plt
-
 """
 central.py
 ------------
@@ -25,6 +15,17 @@ All numerical mechanics implemented inside mechanics.py
 
 
 """
+
+from mechanics import (
+    calculate_abd,
+    calculate_transformed_plies,
+    compute_ply_strains_stresses,
+    laminate_effective_properties,
+    first_ply_failure
+)
+import numpy as np
+import matplotlib.pyplot as plt
+
 def get_user_laminate():
     """
     Collects laminate definition from the user
