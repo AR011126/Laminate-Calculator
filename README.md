@@ -25,6 +25,7 @@ Composite Calculator/
 |--mechanics.py
 |--central.py
 |--README.md
+|--requirements.txt
 
 
 Theory Summary
@@ -68,4 +69,20 @@ Hashin (mode-specific)
 
 Loads are scaled until any ply reaches FI ≥ 1.0.
 
+
+HOW TO RUN
+
+1) Clone the repository
+git clone https://github.com/AR011126/Laminate-Calculator.git
+cd Laminate-Calculator
+
+2) Create and activate virtual environment
+python -m venv .venv
+.venv\Scripts\activate
+
+3) Install required dependencies
+pip install -r requirements.txt
+
+4) Run the calculator
+python central.py
 
